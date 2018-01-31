@@ -1,36 +1,21 @@
-# Platform
+# Platform  
+# https://gamer-platform.herokuapp.com/players/new
 
-This repository contains the source code for
-[elixir-elm-tutorial.herokuapp.com](https://elixir-elm-tutorial.herokuapp.com),
-which is the demo application from the
-[Elixir and Elm Tutorial](https://leanpub.com/elixir-elm-tutorial).
+To start your Phoenix server:
 
-## Requirements
+  * Install dependencies with `mix deps.get`
+  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
+  * Install Node.js dependencies with `cd assets && npm install`
+  * Start Phoenix endpoint with `mix phx.server`
 
-- Elixir 1.5
-- Phoenix 1.3
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-## Setup
+Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
-1. `git clone https://github.com/elixir-and-elm-tutorial/platform.git`
-2. `mix deps.get` to install Phoenix dependencies.
-3. `config/dev.exs` and `config/test.exs` to configure local database.
-4. `mix ecto.setup` to create, migrate, and seed the database.
-5. `cd assets && npm install` to install Node dependencies.
-6. `mix phx.server` to start Phoenix server.
-7. `localhost:4000` to see application!
+## Learn more
 
-## Tests and Tooling
-
-- Run the test suite with `mix test`.
-- Check for outdated dependencies with `mix hex.outdated`.
-
-## Deployment
-
-This app is deployed to Heroku at https://elixir-elm-tutorial.herokuapp.com.
-
-## Need Help?
-
-- Open a [GitHub Issue](https://github.com/elixir-elm-tutorial/platform/issues).
-- Email me at `bijanbwb@gmail.com`.
-
+  * Official website: http://www.phoenixframework.org/
+  * Guides: http://phoenixframework.org/docs/overview
+  * Docs: https://hexdocs.pm/phoenix
+  * Mailing list: http://groups.google.com/group/phoenix-talk
+  * Source: https://github.com/phoenixframework/phoenix
